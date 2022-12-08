@@ -3,7 +3,7 @@ import useNextHostTranslation from "../i18n/useNextHostTranslation";
 import dynamic from "next/dynamic";
 // @ts-ignore
 const ReactRemoteContent = dynamic(() => import("reactRemote/Content"), {ssr: false});
-import i18nService from "../../i18next-shared-lib/src/i18nService";
+import i18nService from "../../i18next-shared-lib/lib/i18nService";
 import Link from 'next/link'// @ts-ignore
 
 const Home: NextPage = () => {
